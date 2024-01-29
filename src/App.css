@@ -1,38 +1,220 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: ClashDisplayVariable;
+  src: url('./assets/ClashDisplay-Variable.ttf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: Switzer;
+  src: url('./assets/Switzer-Regular.ttf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.leftDiv{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  background-color: black;
+  flex: 1;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  box-shadow: 5px 0 10px -5px #000;
+}
+.black{
+  width: 50vw;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  opacity: 75%;
+}
+
+.image{
+  width: calc(26.5*2)vh;
+  height: calc(19.9*2)vh;
+  position: fixed;
+}
+
+.bgvideo{
+  width:50vw;
+  height:100vh;
+  position:fixed;
+  object-fit: cover;
+}
+
+.rightDiv{
+  display: flex;
+  width: 50vw;
+  height: 100vh;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 0 10px -5px #333;
+  flex-flow: column wrap;
+}
+
+.container{
+  display: flex;
+}
+
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field {
+  font-family: Switzer;
+  width: 100%;
+  border: 0;
+  border-bottom: 0.35vh solid black;
+  outline: 0;
+  font-size: 1.1rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: transparent;
+  }
+
+  &:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 2.5vh;
+  color: black;
+  font-family: Switzer;
+}
+
+.form__field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    color: primary;   
+  }
+  border-image: linear-gradient(to right, primary,secondary);
+}
+/* reset input */
+.form__field{
+  &:required,&:invalid { box-shadow:none; }
+}
+
+.padding{
+  height:5vh;
+}
+/* demo */
+
+.title{
+  font-family: ClashDisplayVariable;
+  font-weight: bold;
+  font-size: 5vh;
+}
+
+.submit{
+  width:50%;
+  height:7.5%;
+  background-color: black;
+  border: 0.33vh solid black;
   color: white;
+  font-family: ClashDisplayVariable;
+  letter-spacing: 0.15vh;
+  transition: 0.2s;
 }
 
-.App-link {
-  color: #61dafb;
+.submit:hover{
+  color: black;
+  background-color: white;
+  border-color: black;
+  transition: 0.2s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+#thanks{
+  display: flex;
+  width: 50vw;
+  height: 100vh;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 0 10px -5px #333;
+  flex-flow: column wrap;
 }
+
+.hidden{
+  display: none !important;
+}
+
+.text{
+  font-family: Switzer;
+  font-size: 3vh;
+}
+
+/* mobile css */
+.leftDivM{
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  background-color: black;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 0 10px -5px #000;
+  position: fixed;
+}
+
+.blackM{
+  width: 100vw;
+  height: 50vh;
+  background-color: black;
+  position: fixed;
+  opacity: 75%;
+}
+
+.bgvideoM{
+  width:100vw;
+  height:50vh;
+  position:fixed;
+  object-fit: cover;
+}
+
+.rightDivM{
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 0 10px -5px #333;
+  flex-flow: column wrap;
+}
+
+.containerM{
+  display: flex;
+}
+
+.titleM{
+  font-family: ClashDisplayVariable;
+  font-weight: bold;
+  font-size: 5vw;
+}
+
+.imageM{
+  width: calc(26.5*2)vh;
+  height: calc(19.9*2)vh;
+  position: fixed;
+}
+
+
+
+
