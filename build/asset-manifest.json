@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3cbe824.css",
-    "main.js": "/static/js/main.766c2c92.js",
-    "static/js/787.9ed4b389.chunk.js": "/static/js/787.9ed4b389.chunk.js",
-    "static/media/video.mp4": "/static/media/video.b32951f0aef1df38feed.mp4",
-    "static/media/ClashDisplay-Variable.ttf": "/static/media/ClashDisplay-Variable.e7f67b72cbf79f80c9c7.ttf",
-    "static/media/Switzer-Regular.ttf": "/static/media/Switzer-Regular.c9b95f9558f3a218e8ab.ttf",
-    "index.html": "/index.html",
-    "main.b3cbe824.css.map": "/static/css/main.b3cbe824.css.map",
-    "main.766c2c92.js.map": "/static/js/main.766c2c92.js.map",
-    "787.9ed4b389.chunk.js.map": "/static/js/787.9ed4b389.chunk.js.map"
+    "main.css": "/team-alex-website/static/css/main.66560003.css",
+    "main.js": "/team-alex-website/static/js/main.068f7039.js",
+    "static/js/787.9ed4b389.chunk.js": "/team-alex-website/static/js/787.9ed4b389.chunk.js",
+    "static/media/video.mp4": "/team-alex-website/static/media/video.b32951f0aef1df38feed.mp4",
+    "static/media/ClashDisplay-Variable.ttf": "/team-alex-website/static/media/ClashDisplay-Variable.e7f67b72cbf79f80c9c7.ttf",
+    "static/media/Switzer-Regular.ttf": "/team-alex-website/static/media/Switzer-Regular.c9b95f9558f3a218e8ab.ttf",
+    "index.html": "/team-alex-website/index.html",
+    "main.66560003.css.map": "/team-alex-website/static/css/main.66560003.css.map",
+    "main.068f7039.js.map": "/team-alex-website/static/js/main.068f7039.js.map",
+    "787.9ed4b389.chunk.js.map": "/team-alex-website/static/js/787.9ed4b389.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3cbe824.css",
-    "static/js/main.766c2c92.js"
+    "static/css/main.66560003.css",
+    "static/js/main.068f7039.js"
   ]
 }
