@@ -55,7 +55,7 @@ function App() {
     return (
       <div className='containerM'>
         <div className="leftDivM">
-          <video autoPlay muted loop class="bgvideo">
+          <video autoPlay muted playsinline loop class="bgvideo">
             <source src={require("./assets/video.mp4")} type="video/mp4"/>
           </video>
           
@@ -67,7 +67,8 @@ function App() {
         <div class="rightDivM" id="rightDiv">
             <text className='title'>DILLIAD</text>
             <text className='title'>INTEREST FORM</text>
-  
+            <div className="padding"></div>
+
             <div class="form__group field">
               <input type="input" class="form__field" name="name" id='name' required />
               <label for="name" class="form__label">Name</label>
