@@ -51,24 +51,22 @@ function App() {
   
       </div>
     );
-  }
-  else{
+  }else{
     return (
       <div className='containerM'>
         <div className="leftDivM">
-          <video autoPlay muted loop class="bgvideoM">
+          <video autoPlay muted loop class="bgvideo">
             <source src={require("./assets/video.mp4")} type="video/mp4"/>
           </video>
           
-          <div className="blackM"></div>
+          <div className="black"></div>
   
-          <img src={logo} alt="Logo" className='imageM'/>
+          <img src={logo} alt="Logo" className='image'/>
         </div>
-
+  
         <div class="rightDivM" id="rightDiv">
-            <text className='titleM'>DILLIAD</text>
-            <text className='titleM'>INTEREST FORM</text>
-            <div className="padding"></div>
+            <text className='title'>DILLIAD</text>
+            <text className='title'>INTEREST FORM</text>
   
             <div class="form__group field">
               <input type="input" class="form__field" name="name" id='name' required />
@@ -92,7 +90,7 @@ function App() {
         <text className='padding'></text>
         <text className='text'>You'll be contacted with any updates involving DILLIAD.</text>
       </div>
-
+  
       </div>
     );
   }
