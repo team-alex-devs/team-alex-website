@@ -71,6 +71,7 @@
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+  padding-bottom: 10vh;
 }
 
 .container{
@@ -83,7 +84,7 @@
 .containerM{
   display: flex;
   width: 100vw;
-  height: 105vh;
+  height: 100vh;
   flex-flow: column wrap;
 }
 
