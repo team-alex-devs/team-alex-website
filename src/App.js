@@ -48,11 +48,13 @@ function App() {
   function DisplayThanks(){
     let info = document.getElementById("rightDiv");
 
+    let thanks
     if(isMobile){
-      let thanks = document.getElementById("thanksM");
+      thanks = document.getElementById("thanksM");
     }else{
-      let thanks = document.getElementById("thanks");
+      thanks = document.getElementById("thanks");
     }
+
     info.classList.add("hidden");
     thanks.classList.remove("hidden");
   }
@@ -142,7 +144,7 @@ function App() {
             </button>
       </div>
   
-      <div id="thanks" class="hidden">
+      <div id="thanksM" class="hidden">
         <text className='title'>Thank you!</text>
         <text className='padding'></text>
         <text className='text'>You'll be contacted with any updates involving DILLIAD.</text>
