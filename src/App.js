@@ -47,7 +47,12 @@ function App() {
   }
   function DisplayThanks(){
     let info = document.getElementById("rightDiv");
-    let thanks = document.getElementById("thanks");
+
+    if(isMobile){
+      let thanks = document.getElementById("thanksM");
+    }else{
+      let thanks = document.getElementById("thanks");
+    }
     info.classList.add("hidden");
     thanks.classList.remove("hidden");
   }

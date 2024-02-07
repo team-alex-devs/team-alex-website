@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/team-alex-website/static/css/main.29cbadc2.css",
-    "main.js": "/team-alex-website/static/js/main.af8fe516.js",
+    "main.css": "/team-alex-website/static/css/main.df487dc9.css",
+    "main.js": "/team-alex-website/static/js/main.d610ca45.js",
     "static/js/787.9ed4b389.chunk.js": "/team-alex-website/static/js/787.9ed4b389.chunk.js",
     "static/media/video.mp4": "/team-alex-website/static/media/video.b32951f0aef1df38feed.mp4",
     "static/media/ClashDisplay-Variable.ttf": "/team-alex-website/static/media/ClashDisplay-Variable.e7f67b72cbf79f80c9c7.ttf",
     "static/media/Switzer-Regular.ttf": "/team-alex-website/static/media/Switzer-Regular.c9b95f9558f3a218e8ab.ttf",
     "index.html": "/team-alex-website/index.html",
-    "main.29cbadc2.css.map": "/team-alex-website/static/css/main.29cbadc2.css.map",
-    "main.af8fe516.js.map": "/team-alex-website/static/js/main.af8fe516.js.map",
+    "main.df487dc9.css.map": "/team-alex-website/static/css/main.df487dc9.css.map",
+    "main.d610ca45.js.map": "/team-alex-website/static/js/main.d610ca45.js.map",
     "787.9ed4b389.chunk.js.map": "/team-alex-website/static/js/787.9ed4b389.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29cbadc2.css",
-    "static/js/main.af8fe516.js"
+    "static/css/main.df487dc9.css",
+    "static/js/main.d610ca45.js"
   ]
 }

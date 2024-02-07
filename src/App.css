@@ -72,7 +72,6 @@
   align-items: center;
   flex-flow: column wrap;
   margin-bottom: 5vh;
-  padding-bottom: 5vh;
 }
 
 .container{
@@ -180,6 +179,17 @@
   display: flex;
   width: 50vw;
   height: 100vh;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 0 10px -5px #333;
+  flex-flow: column wrap;
+}
+
+#thanksM{
+  display: flex;
+  width: 100vw;
+  height: 50vh;
   flex: 1;
   justify-content: center;
   align-items: center;
