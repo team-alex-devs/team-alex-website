@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/team-alex-website/static/css/main.8182966d.css",
-    "main.js": "/team-alex-website/static/js/main.ddd931c6.js",
+    "main.css": "/team-alex-website/static/css/main.cda042e3.css",
+    "main.js": "/team-alex-website/static/js/main.ed8e732c.js",
     "static/js/787.9ed4b389.chunk.js": "/team-alex-website/static/js/787.9ed4b389.chunk.js",
     "static/media/video.mp4": "/team-alex-website/static/media/video.b32951f0aef1df38feed.mp4",
+    "static/media/image.png": "/team-alex-website/static/media/image.2491f4cf8b7a6127fcf3.png",
     "static/media/ClashDisplay-Variable.ttf": "/team-alex-website/static/media/ClashDisplay-Variable.e7f67b72cbf79f80c9c7.ttf",
     "static/media/Switzer-Regular.ttf": "/team-alex-website/static/media/Switzer-Regular.c9b95f9558f3a218e8ab.ttf",
     "index.html": "/team-alex-website/index.html",
-    "main.8182966d.css.map": "/team-alex-website/static/css/main.8182966d.css.map",
-    "main.ddd931c6.js.map": "/team-alex-website/static/js/main.ddd931c6.js.map",
+    "main.cda042e3.css.map": "/team-alex-website/static/css/main.cda042e3.css.map",
+    "main.ed8e732c.js.map": "/team-alex-website/static/js/main.ed8e732c.js.map",
     "787.9ed4b389.chunk.js.map": "/team-alex-website/static/js/787.9ed4b389.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8182966d.css",
-    "static/js/main.ddd931c6.js"
+    "static/css/main.cda042e3.css",
+    "static/js/main.ed8e732c.js"
   ]
 }

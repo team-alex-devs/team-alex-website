@@ -113,9 +113,7 @@ function App() {
     return (
       <div className='containerM'>
         <div className="leftDivM">
-          <video autoPlay muted playsinline loop class="bgvideo">
-            <source src={require("./assets/video.mp4")} type="video/mp4"/>
-          </video>
+          <img class="bgvideo" src={require("./assets/image.png")}/>
           
           <div className="black"></div>
   
@@ -123,7 +121,7 @@ function App() {
         </div>
   
         <div class="rightDivM" id="rightDiv">
-            <text className='title'>DILLIAD2</text>
+            <text className='title'>DILLIAD3</text>
             <text className='title'>INTEREST FORM</text>
             <div className="padding"></div>
 
