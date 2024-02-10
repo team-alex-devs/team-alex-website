@@ -123,7 +123,7 @@ function App() {
         </div>
   
         <div class="rightDivM" id="rightDiv">
-            <text className='title'>DILLIAD</text>
+            <text className='title'>DILLIAD2</text>
             <text className='title'>INTEREST FORM</text>
             <div className="padding"></div>
 
